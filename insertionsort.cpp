@@ -55,4 +55,19 @@ for (i = 1; i <= n - 1; i++)
     }
 }
 
+void display()
+{
+    cout << endl; // output baris kosong
+    cout << "==================================" << endl;
+    cout << "Total Pass = " << n - 1 << endl; // count element movement
+    cout << "==================================" << endl; // output ke layar
+    cout << "Element Array yang telah tersusun" << endl; // output ke layar
+    cout << "==================================" << endl; // output ke layar
+
+    for (int j = 0; j < n; j++)
+    { // looping dengan j dimulai dari 0 hingga n-1
+        cout << arr[j] << endl; // output ke layar
+    }
+    cout << endl; // output baris kosong
+}
 
